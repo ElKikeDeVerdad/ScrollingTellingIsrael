@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">multiidioma</string>
+    <string name="greeting">Hello!</string>
+    <string name="change_language">Switch to Spanish</string>
+    <string name="switch_to_english">Switch to English</string>
+    <string name="switch_to_galician">Switch to Galician</string>
+    <string name="paragraph_1">This is the first paragraph of text.It describes the beginning of the story or the main information to be presented.</string>
+    <string name="texto_buscado">It describes the beginning of</string>
+    <string name="texto_buscado2">This is the first paragraph</string>
+    <string name="paragraph_2">Next, the second paragraph is presented. This can expand on the main idea, add details, or a relevant anecdote.</string>
+    <string name="paragraph_3">The third and final paragraph concludes the section, summarizing key points or providing a call to action.</string>
+</resources>

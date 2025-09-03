@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">multiidioma</string>
+    <string name="greeting">Hola</string>
+    <string name="change_language">Cambio a español</string>
+    <string name="switch_to_english">Cambia a inglés</string>
+    <string name="switch_to_galician">Cambia a gallego</string>
+    <string name="paragraph_1">Este es el primer párrafo de texto. Describe el inicio de la historia o la información principal que se desea presentar.</string>
+    <string name="texto_buscado">Describe el inicio de la historia</string>
+    <string name="texto_buscado2">Este es el primer párrafo</string>
+    <string name="paragraph_2"><b>A continuación, se presenta el segundo párrafo</b>. Este puede expandir la idea principal, añadir detalles o una anécdota relevante.</string>
+    <string name="paragraph_3">El <font color="#ff8000">tercer y último párrafo concluye</font> la sección, resumiendo los puntos clave o proporcionando una llamada a la acción.</string>
+</resources>
