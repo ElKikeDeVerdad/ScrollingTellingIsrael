@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.cimus.miniscreens
+package com.example.multiidioma.ui.screens.cimus.miniscreens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -30,13 +30,24 @@ fun MiniScreen0(
     // Usa el contexto localizado que ya pusiste en CompositionLocalProvider
     val context = LocalizedContext.current
 
-    Box{
-        Column(modifier = modifier.padding(16.dp).fillMaxSize().border(width = 2.dp, color = Color.Blue)) {
-            Box{
-                VideoScreen(videoId = "92UgRKX8ooM", // tu ID de video
-                    modifier = Modifier.fillMaxSize().aspectRatio(9f / 16f))
+    Box {
+        Column(
+            modifier = modifier
+                .padding(16.dp)
+                .fillMaxSize()
+                .border(width = 2.dp, color = Color.Blue)
+        ) {
+            Box {
+                VideoScreen(
+                    videoId = "92UgRKX8ooM", // tu ID de video
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .aspectRatio(9f / 16f)
+                )
             }
-            Box(modifier = modifier.fillMaxSize().background(color = Color.Transparent)){
+            Box(modifier = modifier
+                .fillMaxSize()
+                .background(color = Color.Transparent)) {
                 Column(
                     modifier = Modifier.fillMaxWidth() // Esto hace que la columna ocupe todo el ancho disponible
                 ) {
@@ -45,14 +56,17 @@ fun MiniScreen0(
                         val rawText = runCatching { context.getString(res) }.getOrElse { "???" }
 
                         Text(
-                            text = xmlToAnnotatedString(parrafo = rawText, context = context,textosBuscados = TextosBuscadosData(textosBuscados)),
+                            text = xmlToAnnotatedString(
+                                parrafo = rawText,
+                                context = context,
+                                textosBuscados = TextosBuscadosData(textosBuscados)
+                            ),
                             style = MaterialTheme.typography.bodyMedium
                         )
                     }
 
                 }
             }
-
 
 
         }

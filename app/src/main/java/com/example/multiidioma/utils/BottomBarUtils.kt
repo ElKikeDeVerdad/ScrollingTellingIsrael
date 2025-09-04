@@ -47,6 +47,11 @@ fun BottomBarUtils(bottomBarVisible : Boolean,navController: NavHostController){
                 TextButton(onClick = { navController.navigate("cimus") }) {
                     Text("Cimus")
                 }
+                Spacer(modifier = Modifier.weight(1f))
+                // Botón 3
+                TextButton(onClick = { navController.navigate("incifor") }) {
+                    Text("Incifor")
+                }
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.cimus
+package com.example.multiidioma.ui.screens.cimus
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

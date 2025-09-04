@@ -8,6 +8,12 @@
     <string name="paragraph_1">Este é o primeiro parágrafo de texto.Describe o inicio da historia ou a información principal que se desexa presentar.</string>
     <string name="texto_buscado">Describe o inicio da historia</string>
     <string name="texto_buscado2">Este  é o primeiro parágrafo</string>
-    <string name="paragraph_2"><b>A continuación, preséntase o segundo parágrafo</b>. Este pode expandir a idea principal, engadir detalles ou unha anécdota relevante.</string>
-    <string name="paragraph_3">O <font color="#ff8000">terceiro e último parágrafo conclúe</font> a sección, resumindo os puntos clave ou proporcionando unha chamada á acción.</string>
+    <string name="paragraph_2">A continuación, preséntase o segundo parágrafo. Este pode expandir a idea principal, engadir detalles ou unha anécdota relevante.</string>
+    <string name="paragraph_3">O terceiro e último parágrafo conclúe a sección, resumindo os puntos clave ou proporcionando unha chamada á acción.</string>
+
+    <string name="II_INCIFOR_miniscreen0_paragraph_0">O ADN de todos os seres humanos é igual nun 99,6 %, pero a información contida nese 0,4 % único é fundamental para obter respostas importantes. En España recuperáronse preto de 9000 corpos das máis de 700 fosas comúns escavadas. Os labores de identificación dos restos, levadas a cabo a través de xenealoxía xenética, son fundamentais para poder dar descanso ás familias dos desaparecidos.</string>
+    <string name="II_INCIFOR_miniscreen1_paragraph_0">Entre un 30 e un 50% dos accidentes mortais de tráfico involucran a individuos que conducían baixo os efectos do alcol. Nestes casos é moi importante determinar se as accións dunha persoa estaban influídas pola presenza de drogas no seu organismo.</string>
+    <string name="II_INCIFOR_miniscreen2_paragraph_0">A mellora nos procesos e instrumentos utilizados polas ciencias forenses levou a un enorme salto cualitativo na resolución de cuestións legais. Desde probas xenéticas que determinen o parentesco, a mostras de ADN que proben a autoría dun crime. Desde a presenza de tóxicos en crimes violentos, ao primeiro paso para abordar a situación dunha persoa drogodependente. As ciencias forenses teñen un impacto directo e claro sobre as persoas en aspectos tan fundamentais da súa vida como a honra, a xustiza ou a morte.</string>
+
+
 </resources>

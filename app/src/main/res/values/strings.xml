@@ -1,12 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">multiidioma</string>
     <string name="greeting">Hello!</string>
     <string name="change_language">Switch to Spanish</string>
     <string name="switch_to_english">Switch to English</string>
     <string name="switch_to_galician">Switch to Galician</string>
-    <string name="paragraph_1">This is the first paragraph of text.It describes the beginning of the story or the main information to be presented.</string>
+
+    <string name="paragraph_1">This is the first paragraph of text. It describes the beginning of the story or the main information to be presented.</string>
     <string name="texto_buscado">It describes the beginning of</string>
     <string name="texto_buscado2">This is the first paragraph</string>
     <string name="paragraph_2">Next, the second paragraph is presented. This can expand on the main idea, add details, or a relevant anecdote.</string>
     <string name="paragraph_3">The third and final paragraph concludes the section, summarizing key points or providing a call to action.</string>
+
+    <!-- INCIFOR MiniScreen0 -->
+    <string name="II_INCIFOR_miniscreen0_paragraph_0">The DNA of all human beings is 99.6% identical, but the information contained in that unique 0.4% is essential for obtaining important answers. In Spain, nearly 9,000 bodies have been recovered from more than 700 mass graves that have been excavated. The work of identifying the remains, carried out through genetic genealogy, is essential to bring closure to the families of the missing.</string>
+    <string name="II_INCIFOR_miniscreen1_paragraph_0">Between 30 and 50% of fatal traffic accidents involve individuals who were driving under the influence of alcohol. In these cases, it is very important to determine whether a person\'s actions were influenced by the presence of drugs in their system.</string>
+    <string name="II_INCIFOR_miniscreen2_paragraph_0">Improvements in the processes and instruments used by forensic science have led to a huge qualitative leap in the resolution of legal issues. From genetic tests that determine kinship to DNA samples that prove the perpetrator of a crime. From the presence of toxins in violent crimes to the first step in addressing the situation of a drug addict. Forensic science has a direct and clear impact on people in such fundamental aspects of their lives as honour, justice and death.</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.cimus
+package com.example.multiidioma.ui.screens.cimus
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -16,9 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.multiidioma.data.MiniScreenState
-import com.example.multiidioma.ui.cimus.miniscreens.MiniScreen0
-import com.example.multiidioma.ui.cimus.miniscreens.MiniScreen1
-import com.example.multiidioma.ui.cimus.miniscreens.MiniScreen2
+import com.example.multiidioma.ui.screens.cimus.miniscreens.MiniScreen0
+import com.example.multiidioma.ui.screens.cimus.miniscreens.MiniScreen1
+import com.example.multiidioma.ui.screens.cimus.miniscreens.MiniScreen2
 
 
 
