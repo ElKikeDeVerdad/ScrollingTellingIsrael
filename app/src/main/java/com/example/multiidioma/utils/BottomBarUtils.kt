@@ -22,7 +22,7 @@ fun BottomBarUtils(bottomBarVisible : Boolean,navController: NavHostController){
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
 
-    if ((currentRoute == "home" || currentRoute == "settings" || currentRoute == "cimus")) {
+    if ((currentRoute == "home" || currentRoute == "settings" || currentRoute == "cimus" || currentRoute == "incifor")) {
         AnimatedVisibility(
             visible = bottomBarVisible,
             enter = slideInVertically(initialOffsetY = { it }),

@@ -15,8 +15,8 @@ import com.example.multiidioma.ui.screens.incifor.InciforViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.getValue
 import androidx.compose.foundation.lazy.items
-import com.example.multiidioma.ui.screens.incifor.miniscreens.InciforMiniScreen0
-import com.example.multiidioma.ui.screens.incifor.miniscreens.InciforMiniScreen1
+import com.example.multiidioma.ui.screens.incifor.miniscreens.miniScreen0.InciforMiniScreen0
+import com.example.multiidioma.ui.screens.incifor.miniscreens.miniScreen1.InciforMiniScreen1
 import com.example.multiidioma.ui.screens.incifor.miniscreens.InciforMiniScreen2
 
 @Composable
