@@ -15,9 +15,9 @@ import com.example.multiidioma.ui.screens.incifor.InciforViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.getValue
 import androidx.compose.foundation.lazy.items
-import com.example.multiidioma.ui.screens.incifor.miniscreens.miniScreen0.InciforMiniScreen0
-import com.example.multiidioma.ui.screens.incifor.miniscreens.miniScreen1.InciforMiniScreen1
-import com.example.multiidioma.ui.screens.incifor.miniscreens.InciforMiniScreen2
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.InciforMiniScreen0
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.InciforMiniScreen1
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen2.InciforMiniScreen2
 
 @Composable
 fun InciforScreen(listState: LazyListState) {
@@ -47,7 +47,6 @@ fun InciforScreen(listState: LazyListState) {
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
-
                         )
 
                         1 -> InciforMiniScreen1(

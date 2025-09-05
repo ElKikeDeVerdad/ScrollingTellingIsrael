@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.miniscreens.miniScreen1
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1
 
 
 import androidx.compose.foundation.background
@@ -10,6 +10,9 @@ import com.example.multiidioma.data.MiniScreenData
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import com.example.multiidioma.ui.components.PlantillaScreen
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.contentInciforMiniScreen1.contentInciforMiniScreen1Box1
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.contentInciforMiniScreen1.contentInciforMiniScreen1Box2
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.contentInciforMiniScreen1.contentInciforMiniScreen1Box3
 
 
 @Composable
@@ -27,9 +30,9 @@ fun InciforMiniScreen1(
     ) {
         PlantillaScreen(
             data = data,
-            Box1 = {contentInciforMiniScreen1Box1()},
-            Box2={contentInciforMiniScreen1Box2(it)},
-            Box3={contentInciforMiniScreen1Box3()}
+            Box1 = { contentInciforMiniScreen1Box1() },
+            Box2={ contentInciforMiniScreen1Box2(it) },
+            Box3={ contentInciforMiniScreen1Box3() }
         )
     }
 }

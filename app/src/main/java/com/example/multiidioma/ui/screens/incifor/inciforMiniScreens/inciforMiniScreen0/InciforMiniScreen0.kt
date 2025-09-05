@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.miniscreens.miniScreen0
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0
 
 
 import androidx.compose.foundation.background
@@ -10,6 +10,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.ui.components.PlantillaScreen
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.contentInciforMiniScreen0.contentInciforMiniScreen0Box2
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.contentInciforMiniScreen0.contentIniciforMiniScreenBox3
 
 
 @Composable
@@ -24,7 +26,7 @@ fun InciforMiniScreen0(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        PlantillaScreen(data = data, Box2 = { contentInciforMiniScreen0Box2(it) } , Box3 = {contentIniciforMiniScreenBox3()})
+        PlantillaScreen(data = data, Box2 = { contentInciforMiniScreen0Box2(it) } , Box3 = { contentIniciforMiniScreenBox3() })
     }
 }
 

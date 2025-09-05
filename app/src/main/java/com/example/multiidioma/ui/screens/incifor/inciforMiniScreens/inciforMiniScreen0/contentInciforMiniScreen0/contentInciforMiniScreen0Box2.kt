@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.miniscreens.miniScreen0
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.contentInciforMiniScreen0
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text

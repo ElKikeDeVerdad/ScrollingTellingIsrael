@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.miniscreens.miniScreen1
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.contentInciforMiniScreen1
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
