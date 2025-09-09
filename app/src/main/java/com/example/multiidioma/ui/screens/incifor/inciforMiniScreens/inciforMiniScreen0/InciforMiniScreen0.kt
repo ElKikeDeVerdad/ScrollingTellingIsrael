@@ -19,14 +19,16 @@ fun InciforMiniScreen0(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
-    val context = LocalContext.current
 
     Box(
         modifier = modifier
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        PlantillaScreen(data = data, Box2 = { contentInciforMiniScreen0Box2(it) } , Box3 = { contentIniciforMiniScreenBox3() })
+        PlantillaScreen(
+            data = data,
+            Box2 = { contentInciforMiniScreen0Box2(it) },
+            Box3 = { contentIniciforMiniScreenBox3() })
     }
 }
 

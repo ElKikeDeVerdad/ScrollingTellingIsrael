@@ -17,7 +17,7 @@ fun LineCircleComponent() {
 
             LineVerticalComponent()
             Spacer(modifier = Modifier.height(20.dp))
-            CircleComponent(width = 15.dp, height = 15.dp)
+            CircleComponent(width = 15.dp, height = 15.dp, widthBox = 1f)
 
         }
 

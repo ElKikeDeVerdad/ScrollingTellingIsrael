@@ -18,12 +18,12 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun CircleComponent(width: Dp, height: Dp) {
+fun CircleComponent(width: Dp, height: Dp, widthBox: Float) {
     Box(
         modifier = Modifier
-            .fillMaxWidth(0.3f)
-            /* .background(color = Color.Green)*/
-            .border(width = 1.dp, color = Color.Red),
+            .fillMaxWidth(widthBox)
+            /*.background(color = Color.Green)*/
+            /*.border(width = 1.dp, color = Color.Red), contentAlignment = Alignment.Center*/,
         contentAlignment = Alignment.Center
     ) {
         Box(modifier = Modifier.size(width, height), contentAlignment = Alignment.Center) {
@@ -34,9 +34,11 @@ fun CircleComponent(width: Dp, height: Dp) {
                     color = Color.White,
                     center = Offset(x = canvasWidth / 2, y = canvasHeight / 2),
                     radius = size.minDimension / 2,
-                    style = Stroke(5F)
-                )
+
+                    )
             }
         }
     }
+
+
 }

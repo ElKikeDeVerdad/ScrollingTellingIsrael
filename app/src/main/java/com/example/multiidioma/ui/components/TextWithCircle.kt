@@ -18,6 +18,6 @@ fun TextWithCircle(){
         modifier = Modifier.fillMaxWidth().border(width = 1.dp, color = Color.Blue).padding(5.dp).background(color = Color.Yellow),
         horizontalArrangement = Arrangement.SpaceBetween){
         Text(modifier = Modifier.fillMaxWidth(0.3f).padding(0.dp).background(color = Color.Cyan),text = "1978")
-        CircleComponent(width = 15.dp, height = 15.dp)
+        CircleComponent(width = 15.dp, height = 15.dp, widthBox = 1f)
     }
 }

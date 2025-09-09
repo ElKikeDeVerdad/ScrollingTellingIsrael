@@ -22,7 +22,7 @@ fun contentInciforMiniScreen1Box2(data: MiniScreenData){
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp, top =50.dp)
+            .padding(start = 50.dp, end = 50.dp)
 
     ) {
         data.bodyParagraphs.forEach { res ->

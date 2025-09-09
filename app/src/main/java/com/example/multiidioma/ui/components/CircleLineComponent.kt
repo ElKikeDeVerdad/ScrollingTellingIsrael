@@ -14,17 +14,17 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun CircleLineComponent() {
     Box(
-        modifier = Modifier.border(width = 1.dp, color = Color.Black),
+        modifier = Modifier
+         /*   .border(width = 1.dp, color = Color.Black)*/,
         contentAlignment = Alignment.Center
     ) {
         Column(
             modifier = Modifier
                 .align(Alignment.Center)
-                .border(width = 1.dp, color = Color.Red),
-            horizontalAlignment = Alignment.CenterHorizontally
+                /*.border(width = 1.dp, color = Color.Red)*/
         ) {
-//Puse un parametro de color CircleComponent para poder cambiarlo
-            CircleComponent(width = 15.dp, height = 15.dp)
+
+            CircleComponent(width = 15.dp, height = 15.dp, widthBox = 1f)
             Spacer(modifier = Modifier.height(20.dp))
             LineVerticalComponent()
 

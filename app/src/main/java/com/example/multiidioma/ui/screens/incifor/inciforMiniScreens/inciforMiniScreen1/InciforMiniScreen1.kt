@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.MiniScreenData
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import com.example.multiidioma.data.BOX
 import com.example.multiidioma.ui.components.PlantillaScreen
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.contentInciforMiniScreen1.contentInciforMiniScreen1Box1
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.contentInciforMiniScreen1.contentInciforMiniScreen1Box2
@@ -21,8 +22,6 @@ fun InciforMiniScreen1(
     modifier: Modifier = Modifier,
 ) {
 
-    val context = LocalContext.current
-
     Box(
         modifier = modifier
             .fillMaxSize()
@@ -30,9 +29,10 @@ fun InciforMiniScreen1(
     ) {
         PlantillaScreen(
             data = data,
+            BoxWeight = BOX(Box1 = 0.25f, Box2 = 0.5f, Box3 = 0.25f),
             Box1 = { contentInciforMiniScreen1Box1() },
-            Box2={ contentInciforMiniScreen1Box2(it) },
-            Box3={ contentInciforMiniScreen1Box3() }
+            Box2 = { contentInciforMiniScreen1Box2(it) },
+            Box3 = { contentInciforMiniScreen1Box3() }
         )
     }
 }
