@@ -17,14 +17,26 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun BoxLineRowComponent(proporcionHeight: Float){
-    Row (
-        modifier = Modifier.fillMaxWidth().border(width = 1.dp, color = Color.Blue).padding(5.dp).fillMaxHeight(proporcionHeight),
-        horizontalArrangement = Arrangement.SpaceBetween){
+fun BoxLineRowComponent(proporcionHeight: Float) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .border(width = 1.dp, color = Color.Blue)
+            .padding(5.dp)
+            .fillMaxHeight(proporcionHeight),
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
         Spacer(modifier = Modifier.fillMaxWidth(0.3f))
-        Box(modifier = Modifier.fillMaxWidth(0.3f).background(color = Color.Green), contentAlignment = Alignment.Center){
+        Box(
+            modifier = Modifier
+                .fillMaxWidth(0.3f)
+                .background(color = Color.Green),
+            contentAlignment = Alignment.Center
+        ) {
             VerticalDivider(
-                modifier = Modifier.padding(horizontal = 0.dp).background(color = Color.White),
+                modifier = Modifier
+                    .padding(horizontal = 0.dp)
+                    .background(color = Color.White),
                 color = Color.Red,
                 thickness = 2.dp
             )
