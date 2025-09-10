@@ -9,8 +9,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.data.StyleText
-import com.example.multiidioma.utils.InciforBodyMediumStyle
-import com.example.multiidioma.utils.InciforStyleTextBody
 
 
 @Composable

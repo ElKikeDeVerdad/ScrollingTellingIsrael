@@ -16,11 +16,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.MiniScreenData
+import com.example.multiidioma.data.StyleImages
+import com.example.multiidioma.data.StyleText
+import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
 @Composable
-fun contentInciforMiniScreen1Box2(data: MiniScreenData){
-    val context = LocalContext.current
+fun contentInciforMiniScreen1Box2(data: MiniScreenData) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -28,17 +30,19 @@ fun contentInciforMiniScreen1Box2(data: MiniScreenData){
             .background(Color.Green)
 
     ) {
-        TextBodyMedium()
-        }
 
-        data.imageRes?.let { res ->
-            Image(
-                painter = painterResource(res),
-                contentDescription = "",
-                modifier = Modifier
-                    .fillMaxSize(),
-                Alignment.BottomCenter
-            )
-        }
+        val estilosTextos = StyleText(
+            style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
+        )
+
+        val estilosImagen = StyleImages(
+            modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
+        )
+
+        TextBodyMedium(data, estilosTextos)
+
+        ReusableImage(data, estilosImagen)
+
+
     }
 }
