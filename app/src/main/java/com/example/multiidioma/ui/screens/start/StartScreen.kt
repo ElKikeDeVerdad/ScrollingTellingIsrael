@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.multiidioma.R
-import com.example.multiidioma.ui.components.SplashImaxen
+import com.example.multiidioma.ui.components.Images.SplashImaxen
 import kotlinx.coroutines.delay
 
 @Composable

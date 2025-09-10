@@ -1,6 +1,7 @@
 package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.contentInciforMiniScreen1
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -22,7 +23,8 @@ fun contentInciforMiniScreen1Box2(data: MiniScreenData){
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, end = 50.dp)
+            .padding(start = 50.dp, end = 50.dp, top = 50.dp)
+            .background(Color.Green)
 
     ) {
         data.bodyParagraphs.forEach { res ->

@@ -1,25 +1,27 @@
-package com.example.multiidioma.ui.components
+package com.example.multiidioma.ui.components.Shapes
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
 fun LineCircleComponent() {
-    Box(modifier = Modifier, contentAlignment = Alignment.Center){
-        Column(modifier = Modifier.align(Alignment.Center)) {
-
+    Box(
+        modifier = Modifier.fillMaxWidth(),
+        contentAlignment = Alignment.Center
+    ) {
+        Column(
+            modifier = Modifier.align(Alignment.Center)
+        ) {
             LineVerticalComponent()
             Spacer(modifier = Modifier.height(20.dp))
             CircleComponent(width = 15.dp, height = 15.dp, widthBox = 1f)
-
         }
-
     }
 }

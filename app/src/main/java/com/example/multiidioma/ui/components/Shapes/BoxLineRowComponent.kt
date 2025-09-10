@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.components
+package com.example.multiidioma.ui.components.Shapes
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border

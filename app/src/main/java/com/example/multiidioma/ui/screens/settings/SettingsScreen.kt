@@ -10,7 +10,7 @@ import androidx.compose.ui.zIndex
 import com.example.multiidioma.R
 import com.example.multiidioma.ui.LocalizedContext
 import com.example.multiidioma.ui.components.LanguageSelector
-import com.example.multiidioma.ui.components.SplashImaxen
+import com.example.multiidioma.ui.components.Images.SplashImaxen
 import com.example.multiidioma.viewmodel.LanguageViewModel
 
 @Composable

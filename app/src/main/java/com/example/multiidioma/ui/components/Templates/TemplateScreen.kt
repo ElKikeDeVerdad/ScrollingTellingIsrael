@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.components
+package com.example.multiidioma.ui.components.Templates
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -14,7 +14,7 @@ import com.example.multiidioma.data.valoresPlantillaScreen
 @Composable
 fun PlantillaScreen(
     data: MiniScreenData,
-    BoxWeight: BOX = valoresPlantillaScreen, //
+    BoxWeight: BOX = valoresPlantillaScreen,
     Box1: @Composable (MiniScreenData) -> Unit = {},
     Box2: @Composable (MiniScreenData) -> Unit = {},
     Box3: @Composable (MiniScreenData) -> Unit = {}

@@ -5,7 +5,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
-import com.example.multiidioma.ui.components.CircleLineComponent
+import com.example.multiidioma.ui.components.Shapes.CircleLineComponent
 
 @Composable
 fun contentIniciforMiniScreenBox3() {
