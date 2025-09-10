@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.MiniScreenData
-import com.example.multiidioma.data.StyleTextBody
+import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
 @Composable
@@ -24,7 +24,7 @@ fun contentInciforMiniScreen0Box2(data: MiniScreenData) {
         verticalArrangement = Arrangement.Center
     ) {
         val estiloTextos =
-            StyleTextBody(style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center)
+            StyleText(style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center)
 
         TextBodyMedium(data, estiloTextos)
 

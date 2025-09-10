@@ -14,7 +14,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.MiniScreenData
-import com.example.multiidioma.data.StyleTextBody
+import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
 
@@ -27,7 +27,7 @@ fun contentInciforMiniScreen2Box2(data: MiniScreenData) {
                 .fillMaxHeight()
                 .padding(start = 50.dp, end = 50.dp)
         ) {
-            val estilosTextos = StyleTextBody(style = MaterialTheme.typography.bodyMedium,textAlign = TextAlign.Center)
+            val estilosTextos = StyleText(style = MaterialTheme.typography.bodyMedium,textAlign = TextAlign.Center)
 
             TextBodyMedium(data,estilosTextos)
         }

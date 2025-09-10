@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import com.example.multiidioma.data.MiniScreenData
-import com.example.multiidioma.data.StyleTextBody
+import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.utils.InciforBodyMediumStyle
 import com.example.multiidioma.utils.InciforStyleTextBody
 
@@ -16,7 +16,7 @@ import com.example.multiidioma.utils.InciforStyleTextBody
 @Composable
 fun TextBodyMedium(
     data: MiniScreenData,
-    style: StyleTextBody
+    style: StyleText
 ) {
     val context = LocalContext.current
 

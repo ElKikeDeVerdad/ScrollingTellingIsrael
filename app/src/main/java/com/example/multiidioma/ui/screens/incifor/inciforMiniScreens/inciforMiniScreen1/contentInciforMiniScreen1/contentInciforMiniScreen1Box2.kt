@@ -16,6 +16,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.multiidioma.data.MiniScreenData
+import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
 @Composable
 fun contentInciforMiniScreen1Box2(data: MiniScreenData){
@@ -27,13 +28,7 @@ fun contentInciforMiniScreen1Box2(data: MiniScreenData){
             .background(Color.Green)
 
     ) {
-        data.bodyParagraphs.forEach { res ->
-            Text(
-                text = runCatching { context.getString(res) }.getOrElse { "???" },
-                color = Color.White,
-                style = MaterialTheme.typography.bodyMedium,
-                textAlign = TextAlign.Center
-            )
+        TextBodyMedium()
         }
 
         data.imageRes?.let { res ->
