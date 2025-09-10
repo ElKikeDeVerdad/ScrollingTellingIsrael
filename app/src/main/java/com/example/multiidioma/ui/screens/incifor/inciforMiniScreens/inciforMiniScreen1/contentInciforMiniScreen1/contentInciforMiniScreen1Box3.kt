@@ -15,7 +15,7 @@ fun contentInciforMiniScreen1Box3() {
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 50.dp, top = 50.dp),
+            .padding(start = 50.dp, top = 20.dp),
         horizontalAlignment = Alignment.Start
     ) {
         LineVerticalComponent(

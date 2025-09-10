@@ -8,11 +8,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+
 import androidx.compose.ui.unit.dp
 
 @Composable
 fun LineVerticalComponent(
-    contentAlignment: Alignment = Alignment.Center
+    contentAlignment: Alignment = Alignment.Center,
+    color: Color = Color.White
 ) {
     Box(
         modifier = Modifier.fillMaxWidth(),
@@ -20,7 +22,7 @@ fun LineVerticalComponent(
     ) {
         VerticalDivider(
             modifier = Modifier.padding(start = 0.dp),
-            color = Color.White,
+            color = color,
             thickness = 3.dp
         )
     }

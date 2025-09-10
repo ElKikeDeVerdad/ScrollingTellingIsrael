@@ -1,11 +1,8 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen2.contentInciforMiniScreen2
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen3.contentInciforMiniScreen3
 
-
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
@@ -20,34 +17,24 @@ import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
-
 @Composable
-fun contentInciforMiniScreen2Box2(data: MiniScreenData) {
+fun contentInciforMiniScreen3Box2(data: MiniScreenData) {
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomEnd
+        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
     )
-    val estilosTextos =
-        StyleText(style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center)
+    val estilosTextos = StyleText(
+        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
+    )
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(top = 10.dp, bottom = 30.dp, start = 50.dp, end = 50.dp)
+    ) {
 
-    Column {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(0.5f)
-                .padding(start = 50.dp, end = 50.dp)
-        ) {
-            TextBodyMedium(data, estilosTextos)
-        }
+        TextBodyMedium(data, estilosTextos)
 
         Spacer(modifier = Modifier.height(10.dp))
 
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(0.5f)
-        ) {
-            ReusableImage(data, estilosImagen)
-        }
+        ReusableImage(data, estilosImagen)
     }
 }
-

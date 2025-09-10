@@ -1,6 +1,7 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.contentInciforMiniScreen0
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen4.contentInciforMiniScreen4
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -15,10 +16,10 @@ import com.example.multiidioma.data.StyleText
 import com.example.multiidioma.ui.components.Text.TextBodyMedium
 
 @Composable
-fun contentInciforMiniScreen0Box2(data: MiniScreenData) {
-    val estiloTextos =
-        StyleText(style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center)
-
+fun contentInciforMiniScreen4Box2(data: MiniScreenData) {
+    val estilosTextos = StyleText(
+        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
+    )
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -26,8 +27,6 @@ fun contentInciforMiniScreen0Box2(data: MiniScreenData) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-
-        TextBodyMedium(data, estiloTextos)
-
+        TextBodyMedium(data, estilosTextos)
     }
 }

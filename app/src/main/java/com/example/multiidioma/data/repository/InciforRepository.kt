@@ -12,23 +12,52 @@ class InciforRepository {
                 id = 0,
 
                 bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen0_paragraph_0
+                    R.string.II_INCIFOR_miniscreen_0_paragraph_0
                 ),
             ),
             MiniScreenData(
                 id = 1,
                 bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen1_paragraph_0,
+                    R.string.II_INCIFOR_miniscreen_1_paragraph_0,
                 ),
                 imageRes = R.drawable.noimagen
             ),
             MiniScreenData(
                 id = 2,
                 bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen2_paragraph_0
+                    R.string.II_INCIFOR_miniscreen_2_paragraph_0
                 ),
                 imageRes = R.drawable.noimagen
             ),
+            MiniScreenData(
+                id = 3,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_3_paragraph_0
+                ),
+                imageRes = R.drawable.noimagen
+            ),
+            MiniScreenData(
+                id = 4,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_4_paragraph_0
+                ),
+                imageRes = R.drawable.noimagen
+            ),
+            MiniScreenData(
+                id = 5,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_5_paragraph_0
+                ),
+                imageRes = R.drawable.noimagen
+            ),
+            MiniScreenData(
+                id = 6,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_6_paragraph_0
+                ),
+                imageRes = R.drawable.noimagen
+            ),
+
         )
     }
 
