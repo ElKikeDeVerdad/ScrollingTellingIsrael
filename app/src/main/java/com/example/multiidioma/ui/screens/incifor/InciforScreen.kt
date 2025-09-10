@@ -22,6 +22,7 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen4.InciforMiniScreen4
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen5.InciforMiniScreen5
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen6.InciforMiniScreen6
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen7.InciforMiniScreen7
 
 @Composable
 fun InciforScreen(listState: LazyListState) {
@@ -81,19 +82,28 @@ fun InciforScreen(listState: LazyListState) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         5 -> InciforMiniScreen5(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         6 -> InciforMiniScreen6(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
+
                         )
 
+                        7 -> InciforMiniScreen7(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
 
 
                         else -> Text("MiniScreen desconocida")
