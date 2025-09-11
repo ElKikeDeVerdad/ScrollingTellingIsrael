@@ -23,12 +23,12 @@ fun contentInciforMiniScreen3Box2(data: MiniScreenData) {
         modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
     )
     val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
+        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.End
     )
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 10.dp, bottom = 30.dp, start = 50.dp, end = 50.dp)
+            .padding(top = 10.dp, bottom = 50.dp, start = 50.dp, end = 50.dp)
     ) {
 
         TextBodyMedium(data, estilosTextos)

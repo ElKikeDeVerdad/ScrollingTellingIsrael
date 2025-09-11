@@ -23,7 +23,8 @@ fun LineCircleComponent(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = contentAlignment
     ) {
-        Column(modifier = Modifier.align(contentAlignment)
+        Column(
+            modifier = Modifier.align(contentAlignment)
         ) {
             Box(
                 modifier = Modifier

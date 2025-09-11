@@ -27,7 +27,7 @@ fun contentInciforMiniScreen2Box2(data: MiniScreenData) {
         modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomEnd
     )
     val estilosTextos =
-        StyleText(style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center)
+        StyleText(style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start)
 
     Column {
         Box(

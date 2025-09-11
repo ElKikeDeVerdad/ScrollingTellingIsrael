@@ -18,7 +18,7 @@ import com.example.multiidioma.ui.components.Text.TextBodyMedium
 fun contentInciforMiniScreen7Box2(data: MiniScreenData) {
     val estilosTextos = StyleText(
         style = MaterialTheme.typography.bodyMedium,
-        textAlign = TextAlign.Center,
+        textAlign = TextAlign.End,
         color = Color.Black
     )
     Column(
@@ -29,7 +29,6 @@ fun contentInciforMiniScreen7Box2(data: MiniScreenData) {
 
             )
     ) {
-
         TextBodyMedium(data, estilosTextos)
     }
 }

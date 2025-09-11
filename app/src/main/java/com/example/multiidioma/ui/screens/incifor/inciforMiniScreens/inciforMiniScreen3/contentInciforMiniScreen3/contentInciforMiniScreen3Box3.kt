@@ -7,15 +7,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.multiidioma.data.MiniScreenData
+import com.example.multiidioma.data.StyleImages
+import com.example.multiidioma.ui.components.Images.ReusableImage
 import com.example.multiidioma.ui.components.Shapes.LineCircleComponent
 
 @Composable
-fun contentInciforMiniScreen3Box1() {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color.Gray),
-    ) {
-        LineCircleComponent(contentAlignment = Alignment.TopEnd)
-    }
+fun contentInciforMiniScreen3Box3(data: MiniScreenData) {
+    val estilosImagen = StyleImages(
+        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
+    )
+
+    ReusableImage(data, estilosImagen)
 }

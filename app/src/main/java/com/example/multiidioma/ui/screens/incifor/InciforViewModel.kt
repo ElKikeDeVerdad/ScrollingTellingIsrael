@@ -21,7 +21,7 @@ class InciforViewModel : ViewModel() {
         loadMiniScreens()
     }
 
-    private fun loadMiniScreens(){
+    private fun loadMiniScreens() {
         viewModelScope.launch {
             //delay(500) // Simula tiempo de carga
             val listaInciforRepository = InciforRepository()
@@ -35,7 +35,11 @@ class InciforViewModel : ViewModel() {
                     listaInciforRepository.getData(5),
                     listaInciforRepository.getData(6),
                     listaInciforRepository.getData(7),
-                )
+                    listaInciforRepository.getData(8),
+                    listaInciforRepository.getData(9),
+                    listaInciforRepository.getData(10),
+
+                    )
             )
 
         }

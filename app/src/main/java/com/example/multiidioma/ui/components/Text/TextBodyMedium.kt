@@ -13,19 +13,35 @@ import com.example.multiidioma.data.StyleText
 @Composable
 fun TextBodyMedium(
     data: MiniScreenData,
-    style: StyleText
+    style: StyleText,
+    index: Int? = null
 ) {
     val context = LocalContext.current
 
     Column {
-        data.bodyParagraphs.forEach { res ->
-            Text(
-                text = runCatching { context.getString(res) }.getOrElse { "???" },
-                color = style.color,
-                style = style.style,
-                textAlign = style.textAlign,
-                modifier = Modifier.fillMaxWidth()
-            )
+        if (index != null) {
+            val res = data.bodyParagraphs.getOrNull(index)
+            res?.let {
+                Text(
+                    text = runCatching { context.getString(it) }.getOrElse { "???" },
+                    color = style.color,
+                    style = style.style,
+                    textAlign = style.textAlign,
+                    modifier = Modifier.fillMaxWidth()
+                )
+            }
+        } else {
+            data.bodyParagraphs.forEach { res ->
+                Text(
+                    text = runCatching { context.getString(res) }.getOrElse {
+                        "???"
+                    },
+                    color = style.color,
+                    style = style.style,
+                    textAlign = style.textAlign,
+                    modifier = Modifier.fillMaxWidth()
+                )
+            }
         }
     }
 }

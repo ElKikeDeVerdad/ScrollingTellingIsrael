@@ -9,13 +9,12 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.PlantillaScreen
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen.contentInciforMiniScreen.contentInciforMiniScreenBox1
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen4.contentInciforMiniScreen4.contentInciforMiniScreen4Box1
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen4.contentInciforMiniScreen4.contentInciforMiniScreen4Box2
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen4.contentInciforMiniScreen4.contentInciforMiniScreen4Box3
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen9.contentInciforMiniScreen9.contentInciforMiniScreen9Box1
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen9.contentInciforMiniScreen9.contentInciforMiniScreen9Box2
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen9.contentInciforMiniScreen9.contentInciforMiniScreen9Box3
 
 @Composable
-fun InciforMiniScreen(
+fun InciforMiniScreen9(
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
@@ -26,11 +25,12 @@ fun InciforMiniScreen(
             .background(Color(0xFF4189B5))
     ) {
         PlantillaScreen(
-            BoxWeight = BOX(Box1 = 0.33f, Box2 = 0.33f, Box3 = 0.33f),
+            BoxWeight = BOX(Box1 = 0.20f, Box2 = 0.25f, Box3 =
+                0.55f),
             data = data,
-            Box1 = { },
-            Box2 = { },
-            Box3 = { }
+            Box1 = { contentInciforMiniScreen9Box1(it) },
+            Box2 = { contentInciforMiniScreen9Box2(it) },
+            Box3 = { contentInciforMiniScreen9Box3(it) }
         )
     }
 }
