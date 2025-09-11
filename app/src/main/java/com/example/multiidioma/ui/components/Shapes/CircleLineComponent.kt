@@ -27,7 +27,7 @@ fun CircleLineComponent(
         ) {
 
             CircleComponent(width = 15.dp, height = 15.dp, widthBox = 1f, color = color)
-            Spacer(modifier = Modifier.height(20.dp))
+            Spacer(modifier = Modifier.height(15.dp))
             LineVerticalComponent(color = color)
 
         }

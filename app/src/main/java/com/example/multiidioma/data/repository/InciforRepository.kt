@@ -87,6 +87,21 @@ class InciforRepository {
                     R.string.II_INCIFOR_miniscreen_10_paragraph1,
                     R.string.II_INCIFOR_miniscreen_10_paragraph2
                 ),
+            ),
+            MiniScreenData(
+                id = 11,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_11_paragraph0,
+                ),
+                imageRes = R.drawable.noimagen
+            ),
+
+            MiniScreenData(
+                id = 12,
+                bodyParagraphs = listOf(
+                    R.string.II_INCIFOR_miniscreen_12_paragraph0,
+                ),
+                imageRes = R.drawable.noimagen
             )
 
 

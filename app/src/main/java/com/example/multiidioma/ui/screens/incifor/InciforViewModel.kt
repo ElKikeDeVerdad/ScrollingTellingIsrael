@@ -38,6 +38,8 @@ class InciforViewModel : ViewModel() {
                     listaInciforRepository.getData(8),
                     listaInciforRepository.getData(9),
                     listaInciforRepository.getData(10),
+                    listaInciforRepository.getData(11),
+                    listaInciforRepository.getData(12),
 
                     )
             )

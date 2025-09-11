@@ -16,8 +16,9 @@ fun ReusableImage(
         Image(
             painter = painterResource(res),
             contentDescription = "",
-            modifier =  style.modifier,
-            style.alignment
+            contentScale = style.contentScale,
+            modifier = style.modifier,
+            alignment = style.alignment
         )
     }
 }

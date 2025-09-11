@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.ui.components.Images.ReusableImage
@@ -17,7 +18,8 @@ fun contentInciforMiniScreen9Box3(data: MiniScreenData) {
         modifier = Modifier
             .fillMaxWidth()
             .fillMaxHeight(0.8f),
-        alignment = Alignment.TopCenter
+        alignment = Alignment.TopCenter,
+        contentScale = ContentScale.FillBounds
     )
 
     ReusableImage(data, estilosImagen)

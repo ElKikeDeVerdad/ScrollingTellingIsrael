@@ -18,6 +18,7 @@ import androidx.compose.foundation.lazy.items
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen0.InciforMiniScreen0
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen1.InciforMiniScreen1
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen10.InciforMiniScreen10
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen11.InciforMiniScreen11
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen2.InciforMiniScreen2
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen3.InciforMiniScreen3
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen4.InciforMiniScreen4
@@ -114,13 +115,29 @@ fun InciforScreen(listState: LazyListState) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         9 -> InciforMiniScreen9(
                             data,
                             Modifier
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+
                         10 -> InciforMiniScreen10(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        11 -> InciforMiniScreen11(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
+
+                        12 -> InciforMiniScreen11(
                             data,
                             Modifier
                                 .fillMaxWidth()
