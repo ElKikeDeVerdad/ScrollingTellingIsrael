@@ -7,5 +7,5 @@ data class BOX(
     val Box3: Float
 )
 
-val valoresPlantillaScreen = BOX(Box1 = 0.1f, Box2 = 0.33f, Box3 = 0.33f)
+val valoresTemplateScreen = BOX(Box1 = 0.1f, Box2 = 0.33f, Box3 = 0.33f)
 

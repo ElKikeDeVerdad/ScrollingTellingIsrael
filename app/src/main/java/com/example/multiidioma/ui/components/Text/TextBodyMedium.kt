@@ -27,7 +27,7 @@ fun TextBodyMedium(
                     color = style.color,
                     style = style.style,
                     textAlign = style.textAlign,
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth(),
                 )
             }
         } else {
@@ -39,7 +39,7 @@ fun TextBodyMedium(
                     color = style.color,
                     style = style.style,
                     textAlign = style.textAlign,
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth(),
                 )
             }
         }

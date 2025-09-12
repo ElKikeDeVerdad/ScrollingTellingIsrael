@@ -17,7 +17,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 
 @Composable
-fun BottomBarUtils(bottomBarVisible : Boolean,navController: NavHostController){
+fun BottomBarUtils(bottomBarVisible: Boolean, navController: NavHostController) {
 
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
@@ -48,9 +48,10 @@ fun BottomBarUtils(bottomBarVisible : Boolean,navController: NavHostController){
                     Text("Cimus")
                 }
                 Spacer(modifier = Modifier.weight(1f))
-                // Botón 3
+                // Botón 4
                 TextButton(onClick = { navController.navigate("incifor") }) {
                     Text("Incifor")
+                    Spacer(modifier = Modifier.weight(1f))
                 }
             }
         }

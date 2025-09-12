@@ -22,7 +22,9 @@ import com.example.multiidioma.utils.setLocale
 import com.example.multiidioma.viewmodel.LanguageViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.multiidioma.ui.components.Templates.TemplateCircleScreen
 import com.example.multiidioma.ui.screens.cimus.CimusScreen
+import com.example.multiidioma.ui.screens.cimus.miniscreens.MiniScreen0
 import com.example.multiidioma.ui.screens.start.StartScreen
 import com.example.multiidioma.ui.screens.settings.SettingsScreen
 import com.example.multiidioma.utils.BottomBarUtils
@@ -56,9 +58,14 @@ fun MyApp(languageViewModel: LanguageViewModel) {
 
         Scaffold(
             topBar = {
-                TopBarUtils(topBarVisible= topBarVisible, navController= navController)
+                TopBarUtils(topBarVisible = topBarVisible, navController = navController)
             },
-            bottomBar = { BottomBarUtils(bottomBarVisible = bottomBarVisible,navController = navController) }
+            bottomBar = {
+                BottomBarUtils(
+                    bottomBarVisible = bottomBarVisible,
+                    navController = navController
+                )
+            }
         ) { padding ->
             NavHost(
                 navController = navController,
@@ -78,9 +85,10 @@ fun MyApp(languageViewModel: LanguageViewModel) {
                 composable("cimus") {
                     CimusScreen(listState)
                 }
-                composable("incifor"){
+                composable("incifor") {
                     InciforScreen(listState)
                 }
+
             }
         }
     }

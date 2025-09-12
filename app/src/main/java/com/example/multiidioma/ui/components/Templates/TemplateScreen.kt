@@ -8,13 +8,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.MiniScreenData
-import com.example.multiidioma.data.valoresPlantillaScreen
+import com.example.multiidioma.data.valoresTemplateScreen
 
 
 @Composable
-fun PlantillaScreen(
+fun TemplateScreen(
     data: MiniScreenData,
-    BoxWeight: BOX = valoresPlantillaScreen,
+    BoxWeight: BOX = valoresTemplateScreen,
     Box1: @Composable (MiniScreenData) -> Unit = {},
     Box2: @Composable (MiniScreenData) -> Unit = {},
     Box3: @Composable (MiniScreenData) -> Unit = {}

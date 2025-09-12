@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.MiniScreenData
-import com.example.multiidioma.ui.components.Templates.PlantillaScreen
+import com.example.multiidioma.ui.components.Templates.TemplateScreen
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen8.contentInciforMiniScreen8.contentInciforMiniScreen8Box1
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen8.contentInciforMiniScreen8.contentInciforMiniScreen8Box2
 import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen8.contentInciforMiniScreen8.contentInciforMiniScreen8Box3
@@ -24,7 +24,7 @@ fun InciforMiniScreen8(
             .fillMaxSize()
             .background(Color(0xFF4189B5))
     ) {
-        PlantillaScreen(
+        TemplateScreen(
             BoxWeight = BOX(Box1 = 0.50f, Box2 = 0.25f, Box3 = 0.25f),
             data = data,
             Box1 = { contentInciforMiniScreen8Box1() },
