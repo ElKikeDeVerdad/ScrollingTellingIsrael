@@ -160,6 +160,12 @@ fun InciforScreen(listState: LazyListState) {
                                 .fillMaxWidth()
                                 .fillParentMaxHeight()
                         )
+                        15 -> InciforMiniScreen14(
+                            data,
+                            Modifier
+                                .fillMaxWidth()
+                                .fillParentMaxHeight()
+                        )
 
                         else -> Text("MiniScreen desconocida")
                     }

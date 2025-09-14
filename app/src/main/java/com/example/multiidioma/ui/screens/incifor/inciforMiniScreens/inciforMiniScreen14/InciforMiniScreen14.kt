@@ -15,6 +15,7 @@ import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMini
 
 @Composable
 fun InciforMiniScreen14(
+    // pantalla
     data: MiniScreenData,
     modifier: Modifier = Modifier,
 ) {
