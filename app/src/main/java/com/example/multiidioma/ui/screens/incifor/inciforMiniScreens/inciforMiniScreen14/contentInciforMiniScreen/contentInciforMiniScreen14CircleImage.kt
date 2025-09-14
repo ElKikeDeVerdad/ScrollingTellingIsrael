@@ -7,12 +7,10 @@ import androidx.compose.ui.Modifier
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.data.StyleImages
 import com.example.multiidioma.ui.components.Images.ReusableImage
+import com.example.multiidioma.utils.CircleStyleImage
 
 @Composable
 fun contentInciforMiniScreen14CircleImage(data: MiniScreenData) {
-    val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.BottomCenter
-    )
 
-    ReusableImage(data, estilosImagen)
+    ReusableImage(data, CircleStyleImage)
 }
