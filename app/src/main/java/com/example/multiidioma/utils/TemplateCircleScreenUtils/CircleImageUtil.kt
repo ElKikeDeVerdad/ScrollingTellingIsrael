@@ -19,8 +19,7 @@ fun CircleImageUtil(
     Box(
         modifier = Modifier
             .fillMaxHeight()
-            .fillMaxWidth(0.25f)
-            .background(Color.Green),
+            .fillMaxWidth(0.25f),
         contentAlignment = Alignment.CenterStart
 
     ) {

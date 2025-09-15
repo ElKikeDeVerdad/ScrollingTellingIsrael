@@ -26,14 +26,12 @@ fun TemplateCircleScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Green)
     ) {
         //Row con circulo y titulo
         Row(
             modifier = Modifier
                 .fillMaxHeight(0.3f)
                 .fillMaxWidth()
-                .background(Color.Gray)
         ) {
             //Imagen Circulo
             CircleImageUtil(data, CircleImage)

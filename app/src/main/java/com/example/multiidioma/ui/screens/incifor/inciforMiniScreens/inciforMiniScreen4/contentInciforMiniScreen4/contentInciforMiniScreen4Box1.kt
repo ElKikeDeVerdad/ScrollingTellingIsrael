@@ -1,7 +1,9 @@
 package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen4.contentInciforMiniScreen4
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -15,12 +17,16 @@ import com.example.multiidioma.ui.components.Images.ReusableImage
 @Composable
 fun contentInciforMiniScreen4Box1(data: MiniScreenData) {
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(), alignment = Alignment.TopEnd, contentScale = ContentScale.FillBounds
+        modifier = Modifier
+            .fillMaxWidth(0.8f)
+            .fillMaxHeight(),
+        alignment = Alignment.TopEnd,
+        contentScale = ContentScale.FillBounds
     )
     Box(
         modifier = Modifier
-            .fillMaxSize()
-            .padding(bottom = 15.dp)
+            .fillMaxSize(),
+        contentAlignment = Alignment.TopEnd
     ) {
 
         ReusableImage(data, estilosImagen)

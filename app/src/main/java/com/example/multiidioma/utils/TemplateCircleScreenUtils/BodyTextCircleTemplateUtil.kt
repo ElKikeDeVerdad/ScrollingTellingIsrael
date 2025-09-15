@@ -20,10 +20,8 @@ fun BodyTextCircleTemplateUtil(
 
     Column(
         modifier = Modifier
-            .fillMaxHeight(0.5f)
-            .fillMaxWidth()
-            .background(Color.Yellow)
-            .padding(start = 106.dp)
+            .padding(start = 106.dp, bottom = 10.dp)
+
     ) {
         BodyText(data)
     }

@@ -17,33 +17,55 @@ import androidx.compose.ui.graphics.Color
 fun BoxArrowBackSpace() {
     Column(
         modifier = Modifier
-            .fillMaxHeight()
-            .fillMaxWidth()
-        /*.background(Color.LightGray)*/
+            .fillMaxSize() // más compacto que fillMaxHeight + fillMaxWidth
     ) {
+        // 👉 Parte superior
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(0.5f)
-            /*.background(Color.Magenta)*/
         ) {
             Row(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .background(Color.Black),
-                horizontalArrangement = Arrangement.End,
+                modifier = Modifier.fillMaxSize(),
+                horizontalArrangement = Arrangement.Start, // dejamos que los weights manden
                 verticalAlignment = Alignment.Top
             ) {
-                ArrowImageUtil()
+                // Espaciador (mitad izquierda)
+                Box(
+                    modifier = Modifier
+                        .weight(0.5f)
+                        .fillMaxHeight()
+                        .background(Color.Yellow) // solo referencia
+                )
 
-                BackButtonCircleTemplateUtil()
+                // Contenedor de los botones (mitad derecha)
+                Box(
+                    modifier = Modifier
+                        .weight(0.5f)
+                        .fillMaxHeight()
+                        .background(Color.Green) // solo referencia
+                ) {
+                    Column(
+                        modifier = Modifier.fillMaxSize(),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center
+                    ) {
+                        ArrowImageUtil(
+                            modifier = Modifier.fillMaxWidth(0.5f)
+                        )
+                        BackButtonCircleTemplateUtil(
+                            modifier = Modifier.fillMaxWidth(0.5f)
+                        )
+                    }
+                }
             }
         }
+
+        // 👉 Parte inferior
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(0.9f)
-                .background(Color.Blue)
-        ) {}
+        )
     }
 }

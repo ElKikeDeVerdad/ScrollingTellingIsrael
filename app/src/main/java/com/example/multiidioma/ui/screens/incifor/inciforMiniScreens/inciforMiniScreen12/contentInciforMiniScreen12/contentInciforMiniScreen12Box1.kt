@@ -1,4 +1,4 @@
-package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.contentInciforMiniScreen2
+package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.contentInciforMiniScreen12
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,9 +14,9 @@ fun contentInciforMiniScreen12Box1() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 50.dp, bottom = 20.dp)
+            .padding(bottom = 20.dp)
     ) {
-        LineVerticalComponent(contentAlignment = Alignment.TopStart)
+        LineVerticalComponent(contentAlignment = Alignment.TopCenter)
 
     }
 }

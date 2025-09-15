@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="com_google_android_gms_fonts_certs">
+        <item>
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A...
+        </item>
+        <item>
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A...
+        </item>
+        <!-- agrega todos los certificados que Google indique -->
+    </string-array>
+</resources>

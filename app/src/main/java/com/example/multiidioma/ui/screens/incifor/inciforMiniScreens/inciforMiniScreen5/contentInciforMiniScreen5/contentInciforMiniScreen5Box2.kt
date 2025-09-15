@@ -2,6 +2,7 @@ package com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMin
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -21,7 +22,7 @@ import com.example.multiidioma.ui.components.Text.TextBodyMedium
 @Composable
 fun contentInciforMiniScreen5Box2(data: MiniScreenData) {
     val estilosImagen = StyleImages(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier.fillMaxHeight().fillMaxWidth(0.5f),
         alignment = Alignment.BottomEnd,
         contentScale = ContentScale.FillBounds
     )
@@ -42,7 +43,8 @@ fun contentInciforMiniScreen5Box2(data: MiniScreenData) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .weight(0.3f)
+                .weight(0.3f),
+            contentAlignment = Alignment.BottomEnd
         ) {
             ReusableImage(data, estilosImagen)
         }

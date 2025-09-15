@@ -34,14 +34,14 @@ class InciforRepository {
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_3_paragraph0
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.incifor_img_01_c
             ),
             MiniScreenData(
                 id = 4,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_4_paragraph0
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.incifor_img_01_d
             ),
             MiniScreenData(
                 id = 5,
@@ -55,7 +55,7 @@ class InciforRepository {
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_6_paragraph0
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.incifor_img_02
             ),
             MiniScreenData(
                 id = 7,
@@ -101,7 +101,7 @@ class InciforRepository {
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_12_paragraph0,
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.incifor_img_03
             ),
             MiniScreenData(
                 id = 13,
@@ -110,17 +110,19 @@ class InciforRepository {
                 id = 14,
                 bodyParagraphs = listOf(
                     R.string.II_INCIFOR_miniscreen_14_title0,
+                    R.string.II_INCIFOR_miniscreen_14_title1,
                     R.string.II_INCIFOR_miniscreen_14_paragraph0,
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.incifor_img_04
             ),
             MiniScreenData(
                 id = 15,
                 bodyParagraphs = listOf(
-                    R.string.II_INCIFOR_miniscreen_14_title0,
-                    R.string.II_INCIFOR_miniscreen_14_paragraph0,
+                    R.string.II_INCIFOR_miniscreen_15_title0,
+                    R.string.II_INCIFOR_miniscreen_15_title1,
+                    R.string.II_INCIFOR_miniscreen_15_paragraph0,
                 ),
-                imageRes = R.drawable.noimagen
+                imageRes = R.drawable.incifor_img_05
             )
 
 

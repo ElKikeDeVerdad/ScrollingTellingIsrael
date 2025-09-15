@@ -9,6 +9,8 @@
     <string name="paragraph_1">This is the first paragraph of text. It describes the beginning of the story or the main information to be presented.</string>
     <string name="texto_buscado">It describes the beginning of</string>
     <string name="texto_buscado2">This is the first paragraph</string>
+
+
     <string name="paragraph_2">Next, the second paragraph is presented. This can expand on the main idea, add details, or a relevant anecdote.</string>
     <string name="paragraph_3">The third and final paragraph concludes the section, summarizing key points or providing a call to action.</string>
 <string name="boton_atras">Back</string>
@@ -30,6 +32,10 @@
     <string name="II_INCIFOR_miniscreen_10_paragraph2">All these advances and research activities have positioned INCIFOR as an international centre of excellence in the field of forensic medicine and toxicology.</string>
     <string name="II_INCIFOR_miniscreen_11_paragraph0">INCIFOR\'s work not only contributes to solving cases, but also drives scientific advances in forensic medicine, toxicology, forensic genetics and criminology. Its work has a direct impact on justice, security and the training of highly qualified professionals.</string>
     <string name="II_INCIFOR_miniscreen_12_paragraph0">The Institute of Forensic and Criminological Sciences of Santiago de Compostela is a leader in scientific research applied to solving legal cases and, ultimately, improving public safety.</string>
-    <string name="II_INCIFOR_miniscreen_14_title0">Forensic Genetics</string>
+    <string name="II_INCIFOR_miniscreen_14_title0">Forensic</string>
+    <string name="II_INCIFOR_miniscreen_14_title1"> Genetics</string>
     <string name="II_INCIFOR_miniscreen_14_paragraph0">Here, DNA is analysed to identify individuals, establish kinship or solve crimes. They also work on identifying victims of disasters and studying ancient human remains.</string>
+    <string name="II_INCIFOR_miniscreen_15_title0">Forensic</string>
+    <string name="II_INCIFOR_miniscreen_15_title1">Toxicology</string>
+    <string name="II_INCIFOR_miniscreen_15_paragraph0">Its activity focuses on the analysis of biological samples from living or deceased persons for the detection, identification and quantification of drugs, alcohol, poisons and all types of substances in the context of judicial investigations, such as homicides, accidents or cases of chemical submission. \nMany types of biological samples are analysed in its laboratory, in many cases revealing recent consumption and, in others, prolonged exposure over time to different types of substances, making it possible to establish a retrospective chronology of their consumption. This laboratory is constantly developing and publishing new analytical methods in influential scientific journals that improve the ability to detect and quantify new substances.\n</string>
 </resources>

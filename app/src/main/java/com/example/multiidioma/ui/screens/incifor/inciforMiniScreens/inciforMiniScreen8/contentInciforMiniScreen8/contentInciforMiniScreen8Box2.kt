@@ -17,13 +17,13 @@ import com.example.multiidioma.ui.components.Text.TextBodyMedium
 @Composable
 fun contentInciforMiniScreen8Box2(data: MiniScreenData) {
     val estilosTextos = StyleText(
-        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Start
+        style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center
     )
 
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 50.dp, end = 50.dp),
+            .padding(start = 50.dp, end = 50.dp, bottom = 20.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {

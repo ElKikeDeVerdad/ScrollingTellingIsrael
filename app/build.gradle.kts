@@ -51,6 +51,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation("androidx.compose.animation:animation")
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.8.1")
     // YouTube Player (excluimos soporte antiguo)
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0") {
         exclude(group = "com.android.support")

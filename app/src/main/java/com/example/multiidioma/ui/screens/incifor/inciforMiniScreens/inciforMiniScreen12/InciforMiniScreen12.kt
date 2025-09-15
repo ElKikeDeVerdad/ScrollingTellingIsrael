@@ -10,9 +10,9 @@ import androidx.compose.ui.graphics.Color
 import com.example.multiidioma.data.BOX
 import com.example.multiidioma.data.MiniScreenData
 import com.example.multiidioma.ui.components.Templates.TemplateScreen
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.contentInciforMiniScreen2.contentInciforMiniScreen12Box1
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.contentInciforMiniScreen2.contentInciforMiniScreen12Box2
-import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.contentInciforMiniScreen2.contentInciforMiniScreen12Box3
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.contentInciforMiniScreen12.contentInciforMiniScreen12Box1
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.contentInciforMiniScreen12.contentInciforMiniScreen12Box2
+import com.example.multiidioma.ui.screens.incifor.inciforMiniScreens.inciforMiniScreen12.contentInciforMiniScreen12.contentInciforMiniScreen12Box3
 
 @Composable
 fun InciforMiniScreen12(
